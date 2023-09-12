@@ -1,0 +1,839 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.iconDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 30%;
+    padding-top: 30px;
+    box-sizing: border-box;
+
+}
+
+.deliveryCharge>p,
+.replacementPeriod>p,
+.warrantyPeriod>p {
+    font-size: 1vw;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.deliveryCharge,
+.replacementPeriod,
+.warrantyPeriod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin-right: 15px;
+}
+
+.outerDiv {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #dadada;
+    background-color: #f1f2f6;
+
+}
+
+.innerDiv {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.outerDiv>.innerDiv>.productImg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.outerDiv>.innerDiv>.productImg>.mainImg {
+    width: 20%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.outerDiv>.innerDiv>.productImg>.sideImg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.outerDiv>.innerDiv>.productImg>.mainImg>img {
+    width: 80%;
+    height: 15%;
+    border: 1px solid #dadada;
+
+}
+
+.outerDiv>.innerDiv>.productImg>.sideImg>img {
+    width: 70%;
+    height: 80%;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.star {
+    color: yellowgreen;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.outerDiv>.innerDiv>.productDetails {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+
+}
+
+.outerDiv>.innerDiv>.productDetails>.bio {
+    width: 100%;
+    height: 100%;
+    word-spacing: 10px;
+    box-sizing: border-box;
+
+}
+
+.outerDiv>.innerDiv>.productDetails>.bio>span {
+    font-weight: 800;
+    font-size: 2.5vw;
+    text-align: left;
+    line-height: 5vh;
+    /* color: rgb(170, 26, 55); */
+    color: #535c68;
+}
+
+.outerDiv>.innerDiv>.productDetails>.bio>h2 {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #535c68;
+}
+
+.outerDiv>.innerDiv>.productDetails>.bio>h5 {
+    padding-left: 5px;
+    color: chocolate;
+}
+
+.outerDiv>.innerDiv>.productDetails>.bio,
+.uses,
+.advantages,
+.contact>p {
+    font-size: 1.5vw;
+    text-align: left;
+    line-height: 5vh;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+}
+
+.contact>h5 {
+    text-align: left;
+}
+
+/* ---------advantage and features------------- */
+.outerContainer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f2f6;
+}
+
+.container {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.outerContainer>.container>.productImg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.outerContainer>.container>.productImg>.sideImg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.outerContainer>.container>.productImg>.sideImg>img {
+    width: 90%;
+    height: 80%;
+    border-radius: 6px;
+}
+
+.outerContainer>.container>.productImg>.sideImg>img:hover {
+    opacity: 0.8;
+}
+
+.outerContainer>.container>.productDetails {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.outerContainer>.container>.productDetails>.bio> {
+    width: 90%;
+    height: 80%;
+}
+
+.outerContainer>.container>.productDetails>.bio>span {
+    font-weight: 600;
+    font-size: 2vw;
+    line-height: 5vh;
+    color: #535c68;
+    display: flex;
+    justify-content: start;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.outerContainer>.container>.productDetails>.bio>p {
+    text-align: left;
+    font-size: 1.3vw;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    line-height: 4vh;
+
+}
+
+/* -------------contact info css-------------- */
+article {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f2f6;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+}
+
+.contactUs {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.contactHead {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.contactHead>h1 {
+    color: #535c68;
+    font-weight: 600;
+}
+
+.contactHead>p {
+    color: #535c68;
+    font-size: 1vw;
+}
+
+.contactInfo {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info {
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.logoSection {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #192a56;
+}
+
+.detail {
+    width: 90%;
+    height: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #535c68;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
+}
+
+/* -----------------signup css -------------------*/
+
+.signUp {
+    width: 100%;
+    height: 70vh;
+    background-color: #f6f0f0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.signUp>.emailImg {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.signUp>.form {
+    width: 45%;
+    height: 100%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.signUp>.emailImg>img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px 0 0 10px;
+
+}
+
+.signUp>.form>.formContent {
+    width: 92%;
+    height: 90%;
+    border-radius: 0 10px 10px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.signUp>.form>.formContent>p {
+    font-size: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.signUp>.form>.formContent>form {
+    width: 30vw;
+    height: 45vh;
+    display: flex;
+    background-color: #192a56;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+.name>input,
+.email>input,
+.btn>button {
+    outline: none;
+    padding: 0 10px;
+    width: 25vw;
+    height: 5vh;
+    color: #535c68;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.name,
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: left;
+
+}
+
+.name>label,
+.email>label {
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.signUp>.form>.formContent>.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------------- responsive -------------*/
+
+@media (max-width:600px) and (min-width:400px) {
+    .outerDiv {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+
+    .innerDiv {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outerDiv>.innerDiv>.productImg {
+        width: 100%;
+        height: 60%;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.mainImg {
+        width: 20%;
+        height: 90%;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.sideImg {
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.mainImg>img {
+        width: 80%;
+        height: 15%;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.sideImg>img {
+        width: 70%;
+        height: 80%;
+    }
+
+    .outerDiv>.innerDiv>.productDetails {
+        width: 100%;
+        height: 40%;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>p {
+        font-size: 3vw;
+        line-height: 2vh;
+        text-align: center;
+        position: relative;
+        bottom: 25px;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>span {
+        font-size: 4vw;
+        line-height: normal;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>h2 {
+        font-size: 4vw;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>h5 {
+        font-size: 2vw;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .iconDiv {
+        padding: 0%;
+        box-sizing: border-box;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .deliveryCharge>p,
+    .replacementPeriod>p,
+    .warrantyPeriod>p {
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .deliveryCharge,
+    .replacementPeriod,
+    .warrantyPeriod {
+        width: 30%;
+    }
+
+    .outerContainer {
+        height: 80vh;
+        border: 1px solid white;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        width: 85%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .outerContainer>.container>.productImg {
+        width: 100%;
+        height: 40%;
+    }
+
+    .outerContainer>.container>.productImg>.sideImg {
+        height: 100%;
+        justify-content: center;
+
+    }
+
+    .outerContainer>.container>.productImg>.sideImg>img {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        background-size: cover;
+    }
+
+    .outerContainer>.container>.productDetails {
+        width: 100%;
+        height: 60%;
+    }
+
+    .outerContainer>.container>.productDetails>.bio>span {
+        font-size: 4vw;
+        line-height: 5vh;
+        justify-content: center;
+    }
+
+    .outerContainer>.container>.productDetails>.bio>p {
+        text-align: center;
+        font-size: 3.8vw;
+    }
+
+    .contactUs {
+        width: 80%;
+    }
+
+    .contactHead>p {
+        font-size: 2.3vw;
+    }
+
+    .detail {
+        font-size: 3vw;
+    }
+
+    .signUp {
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    .signUp>.emailImg {
+        display: none;
+    }
+
+    .signUp>.form {
+        width: 100%;
+        justify-content: center;
+        background-color: #f6f0f0;
+    }
+
+    .signUp>.form>.formContent>form {
+        width: 90%;
+        height: 80%;
+
+    }
+
+    .signUp>.form>.formContent {
+        border-radius: 0px;
+    }
+
+    .name>input,
+    .email>input,
+    .btn>button {
+        width: 70vw;
+    }
+
+}
+
+@media (max-width:400px) {
+    .outerDiv {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: none;
+    }
+
+    .innerDiv {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outerDiv>.innerDiv>.productImg {
+        width: 100%;
+        height: 60%;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.mainImg {
+        width: 20%;
+        height: 90%;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.sideImg {
+        width: 80%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.mainImg>img {
+        width: 80%;
+        height: 15%;
+    }
+
+    .outerDiv>.innerDiv>.productImg>.sideImg>img {
+        width: 70%;
+        height: 80%;
+    }
+
+    .outerDiv>.innerDiv>.productDetails {
+        width: 100%;
+        height: 40%;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>p {
+        font-size: 3vw;
+        line-height: 2vh;
+        text-align: center;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>span {
+        font-size: 4vw;
+        position: relative;
+        bottom: 30px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>h2 {
+        font-size: 4vw;
+        position: relative;
+        bottom: 70px;
+    }
+
+    .star {
+        display: none;
+    }
+
+    .outerDiv>.innerDiv>.productDetails>.bio>h5 {
+        font-size: 2vw;
+        position: relative;
+        bottom: 90px;
+    }
+
+    .iconDiv {
+        padding: 0%;
+        box-sizing: border-box;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .deliveryCharge>p,
+    .replacementPeriod>p,
+    .warrantyPeriod>p {
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .deliveryCharge,
+    .replacementPeriod,
+    .warrantyPeriod {
+        width: 30%;
+    }
+
+    .outerContainer {
+        height: 70vh;
+        border: 1px solid white;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        width: 85%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .outerContainer>.container>.productImg {
+        width: 100%;
+        height: 60%;
+    }
+
+    .outerContainer>.container>.productImg>.sideImg {
+        height: 100%;
+        justify-content: center;
+
+    }
+
+    .outerContainer>.container>.productImg>.sideImg>img {
+        width: 100%;
+        height: 80%;
+        border-radius: 6px;
+        background-size: cover;
+    }
+
+    .outerContainer>.container>.productDetails {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .outerContainer>.container>.productDetails>.bio>span {
+        font-size: 4vw;
+        line-height: 5vh;
+        justify-content: center;
+
+    }
+
+    .outerContainer>.container>.productDetails>.bio>p {
+        text-align: center;
+        font-size: 3.8vw;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .contactUs {
+        width: 80%;
+    }
+
+    .contactHead>p {
+        font-size: 2.3vw;
+    }
+
+    .detail {
+        font-size: 3vw;
+    }
+
+    .signUp {
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+    }
+
+    .signUp>.emailImg {
+        display: none;
+    }
+
+    .signUp>.form {
+        width: 100%;
+        justify-content: center;
+        background-color: #f6f0f0;
+    }
+
+    .signUp>.form>.formContent>form {
+        width: 90%;
+        height: 80%;
+    }
+
+    .signUp>.form>.formContent {
+        border-radius: 0px;
+    }
+
+    .name>input,
+    .email>input,
+    .btn>button {
+        width: 70vw;
+    }
+}
